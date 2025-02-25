@@ -23,6 +23,7 @@ require (
 	github.com/Machiel/slugify v1.0.1
 	github.com/Masterminds/semver/v3 v3.3.0
 	github.com/anargu/gin-brotli v0.0.0-20220116052358-12bf532d5267
+	github.com/apache/answer/ui/src/plugins/test v0.0.0-00010101000000-000000000000
 	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2
 	github.com/bwmarrin/snowflake v0.3.0
 	github.com/disintegration/imaging v1.6.2
@@ -60,6 +61,7 @@ require (
 	golang.org/x/crypto v0.27.0
 	golang.org/x/image v0.20.0
 	golang.org/x/net v0.29.0
+	golang.org/x/text v0.18.0
 	gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df
 	gopkg.in/yaml.v3 v3.0.1
 	modernc.org/sqlite v1.33.0
@@ -76,6 +78,7 @@ require (
 	github.com/Microsoft/go-winio v0.6.2 // indirect
 	github.com/Nvveen/Gotty v0.0.0-20120604004816-cd527374f1e5 // indirect
 	github.com/andybalholm/brotli v1.1.0 // indirect
+	github.com/apache/answer-plugins/util v1.0.3 // indirect
 	github.com/aymerick/douceur v0.2.0 // indirect
 	github.com/bytedance/sonic v1.12.2 // indirect
 	github.com/bytedance/sonic/loader v0.2.0 // indirect
@@ -160,7 +163,6 @@ require (
 	golang.org/x/arch v0.10.0 // indirect
 	golang.org/x/exp v0.0.0-20240909161429-701f63a606c0 // indirect
 	golang.org/x/sys v0.25.0 // indirect
-	golang.org/x/text v0.18.0 // indirect
 	golang.org/x/tools v0.25.0 // indirect
 	google.golang.org/protobuf v1.34.2 // indirect
 	gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc // indirect
@@ -177,3 +179,5 @@ require (
 replace lukechampine.com/uint128 v1.1.1 => github.com/aichy126/uint128 v1.1.1
 
 replace modernc.org/cc/v3 v3.40.0 => gitlab.com/cznic/cc/v3 v3.40.0
+
+replace github.com/apache/answer/ui/src/plugins/test => ./ui/src/plugins/test

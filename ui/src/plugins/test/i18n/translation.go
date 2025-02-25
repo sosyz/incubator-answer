@@ -17,23 +17,4 @@
  * under the License.
  */
 
-//go:generate go run github.com/swaggo/swag/cmd/swag init -g ./cmd/answer/main.go -d ../../ -o ../../docs
-
-package main
-
-import (
-	answercmd "github.com/apache/answer/cmd"
-
-	_ "github.com/apache/answer/ui/src/plugins/test"
-)
-
-// main godoc
-// @title Apache Answer
-// @description Apache Answer API
-// @BasePath /
-// @securityDefinitions.apikey ApiKeyAuth
-// @in header
-// @name Authorization
-func main() {
-	answercmd.Main()
-}
+package i18n
